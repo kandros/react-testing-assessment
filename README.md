@@ -69,7 +69,7 @@ Create and test (as withSwitch) a **Switch** component that can be used as follo
 
 #### 3) withRepo Function children Component testing
 
-Create a **withRepo** HOC with uses Github Api that can be used as follows.
+Create a **withRepo** HOC that uses Github Api that can be used as follows.
 
 Test loading, error and good-response scenarios (the network calls should be mocked and not hit the network)
 
