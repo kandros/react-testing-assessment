@@ -83,7 +83,7 @@ const WithRepo = withRepo({
 
 ...
 render{
-  return <WithRepo/>
+  return <WithRepo owner="zeit" project="next.js"/>
 }
 ...
 ```
