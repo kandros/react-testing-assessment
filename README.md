@@ -120,4 +120,4 @@ Write the app is TypeScript
 
 ### Super Bonus:
 
-Use github GraphQL api
+Use github GraphQL api and [react-apollo](https://github.com/apollographql/react-apollo) (the network calls should be mocked and not hit the network)
