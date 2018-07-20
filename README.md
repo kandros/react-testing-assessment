@@ -46,13 +46,15 @@ class BaseSwitch extends React.Component {
 const Switch = withToggle({defaultIsOn: false })(BaseSwitch)
 
 class App extends Component {
+  switchRef = React.createRef()
+
   componentDidMount() {
-    console.log(this.r.getSwitchState()) // on or off
+    console.log(this.switchRef.current.getSwitchState()) // on or off
     console.log(Switch.getSecretNumber()) // 42
   }
 
   render() {
-    return <Switch ref={n => (this.switch = n)} />
+    return <Switch ref={this.switchRef} />
   }
 }
 ```
