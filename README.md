@@ -112,7 +112,7 @@ but do not focus of these unless the above tasks are completed
 
 ### Bonus 1:
 
-Automated testing using [Cypress](https://www.cypress.io/)
+Automated testing using [Puppeteer](https://github.com/GoogleChrome/puppeteer) or [Cypress](https://www.cypress.io/)
 
 ### Bonus 2:
 
